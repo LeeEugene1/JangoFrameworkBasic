@@ -1,3 +1,4 @@
+#추가한 cummunity폴더를 installed app안에 넣는다.
 """
 Django settings for tutorial project.
 

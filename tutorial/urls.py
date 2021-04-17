@@ -1,3 +1,4 @@
+#유저들이 접근할수있는 URL
 """tutorial URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,3 +20,5 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+#유저접근주소만들기
