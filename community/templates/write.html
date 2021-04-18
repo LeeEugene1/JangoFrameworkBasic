@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hi
+    이제이걸 manage.py runserver띄워보고
+    폼을 넣으려하는데
+    장고에서 제공하는 폼을 넣어보려한다.(장고도움없이 퍼블리싱니맘대로해도됨)
+    community - forms.py를 제작한다
+
+    이제 다시 돌아왔으면 form을 제작해보자
+    <form action="" method="post">
+    {% comment %}
+        {{ form.as_table }}
+        {{ form.as_p }}
+        {{ form.as_ul }}
+    {% endcomment %}
+    {{form.as_p}}
+
+    장고 방어막 해제
+    {% csrf_token %}
+    <button type="submit">저어장</buttpn>
+    </form>
+
+    <!-- 이제 저장버튼을 눌렀을때 db에도 저장될수있도록해보자
+    views.py로 이동
+     -->
+</body>
+</html>
